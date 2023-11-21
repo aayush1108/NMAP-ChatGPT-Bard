@@ -71,7 +71,7 @@ def bard_api(cve_list, ipScanner="default"):
 
 
 def create_a_pdf_bard(cve_list, filename="default"):
-    token = "dQjVcFu3wDRvECej3fR1gSi8W3F_dQB4f9P8j1DmEyakTwHg9WuLuEBn0dXPM4OuUCsT5A."
+    token = "Google_Bard_Cookie"
     session = requests.Session()
     session.headers = SESSION_HEADERS
     session.cookies.set("__Secure-1PSID", token)

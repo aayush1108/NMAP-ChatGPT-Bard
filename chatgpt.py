@@ -2,7 +2,7 @@ import openai
 import logging
 
 # Configure OpenAI API
-api_key = "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"
+api_key = "Your_OpenAI_API_KEY"
 openai.api_key = api_key
 
 def get_fix_for_vulnerability(cve_code, conversation=[]):
