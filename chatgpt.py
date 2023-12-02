@@ -1,8 +1,10 @@
+import time
+
 import openai
 import logging
 
 # Configure OpenAI API
-api_key = "Your_OpenAI_API_KEY"
+api_key = "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"
 openai.api_key = api_key
 
 def get_fix_for_vulnerability(cve_code, conversation=[]):
@@ -27,3 +29,4 @@ def get_fix_for_vulnerability(cve_code, conversation=[]):
     except Exception as e:
         logging.error(f"Error in ChatGPT interaction: {str(e)}")
         return "Unable to provide a fix at this time."
+    time.sleep(25)

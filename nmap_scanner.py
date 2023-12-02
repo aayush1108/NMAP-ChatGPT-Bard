@@ -18,7 +18,7 @@ def scan_for_vulnerabilities(target_host):
         logging.error(f"Error in Nmap scan: {e.output}")
         return "Nmap scan failed."
 
-if __name__ == "__main__":
-    target_host = input("Enter the target host or IP address: ")
-    scan_result = scan_for_vulnerabilities(target_host)
-    print(scan_result)
+#if __name__ == "__main__":
+#    target_host = input("Enter the target host or IP address: ")
+#    scan_result = scan_for_vulnerabilities(target_host)
+#     print(scan_result)

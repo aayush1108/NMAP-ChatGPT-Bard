@@ -1,0 +1,2 @@
+Detected vulnerabilities for 192.168.44.131:
+
